@@ -5,6 +5,7 @@ public class Insect {
 
     public void normalAttack(){
 
+
     }
 
     public void specialAttack(){
