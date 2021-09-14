@@ -1,4 +1,5 @@
 public class Insect {
+    public String name; //InsectName
     public int hp; //HealthPoints
     public int ap; //AttackPoints
     public int ad; //AttackDamage
