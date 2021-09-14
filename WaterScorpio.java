@@ -1,9 +1,7 @@
-public class WaterSpider extends Element{
+import com.sun.security.jgss.GSSUtil;
 
-    Insect insect = new Insect("Water Spider", 100, 15, 100) {
-
-
-
+public class WaterScorpio {
+    Insect insect = new Insect("Water Scorpio", 120, 10, 100) {
         @Override
         public int hashCode() {
             return super.hashCode();
@@ -25,18 +23,12 @@ public class WaterSpider extends Element{
         }
     };
 
-    public void CannibalCrush () {
-        System.out.println("The Water Spider bites the body parts away! The opponent is bleeding...");
+    public void HitAndRun (){
+        System.out.println("Scorpio hits the target and runs away as a coward...");
     }
 
-    public void WaterbombSmack (int ap) {
-        ap = 15;
-        System.out.println("The Spider sssssssmack with a water bomb and makes the Target very uncomfortable, ha!");
+    public void Trunksting (int ap){
+        ap = 20;
+        System.out.println("Scorpio injects his trunk and absorbs hella lot of essential liquids! How you like that?");
     }
-
-
 }
-
-
-
-

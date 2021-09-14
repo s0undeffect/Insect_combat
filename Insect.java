@@ -10,4 +10,6 @@ public abstract class Insect {
         this.ad = ad;
         this.ap = ap;
     }
+
+
 }
