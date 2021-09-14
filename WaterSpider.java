@@ -34,6 +34,10 @@ public class WaterSpider{
         System.out.println("The Spider sssssssmack with a water bomb and makes the Target very uncomfortable, ha!");
     }
 
+    public void tsunami(){
+        int ap = 25;
+        System.out.println("A giant wave rolls over the enemy and destroys everything in the way!");
+    }
 
 }
 

@@ -31,4 +31,8 @@ public class WaterScorpio {
         ap = 20;
         System.out.println("Scorpio injects his trunk and absorbs hella lot of essential liquids! How you like that?");
     }
+    public void tsunami(){
+        int ap = 25;
+        System.out.println("A giant wave rolls over the enemy and destroys everything in the way!");
+    }
 }
