@@ -9,6 +9,12 @@ public class BulletAnt {
             System.out.println("The ant is using its sting. The sting burns like hell");
         }
 
+        public void ignition (){
+            int ap = 25;
+            System.out.println("Fire strikes on the enemy");
+        }
+
+
         @Override
         public int hashCode() {
             return super.hashCode();

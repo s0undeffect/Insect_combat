@@ -13,6 +13,11 @@ public class DungBeetle{
             System.out.println("Dung Beetle rolls his target with a giant shitball over!");
         }
 
+        public void earthquake (){
+            int ap = 25;
+            System.out.println("The earth is shaking! Cracks in the ground and debris falling down on the target");
+        }
+
 
         @Override
         public int hashCode() {

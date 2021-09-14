@@ -9,6 +9,11 @@ public class Centipede {
             int ap = 15;
             System.out.println("Centipede bites with his poisonous Claw and poisoned his enemy!");
         }
+
+        public void earthquake (){
+            int ap = 25;
+            System.out.println("The earth is shaking! Cracks in the ground and debris falling down on the target");
+        }
         @Override
         public int hashCode() {
             return super.hashCode();
