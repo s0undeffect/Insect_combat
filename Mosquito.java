@@ -1,0 +1,39 @@
+public class Mosquito {
+
+    Insect insect = new Insect("Mosquito", 80, 10, 100) {
+
+        public void transfusion(){
+            System.out.println("Mosquito is thirsty and sucks the blood from the victim.");
+        }
+        public void contaminate(){
+            int ap = 20;
+            System.out.println("The Mosquito injects viruses with its proboscis");
+
+        }
+
+        @Override
+        public int hashCode() {
+            return super.hashCode();
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            return super.equals(obj);
+        }
+
+        @Override
+        protected Object clone() throws CloneNotSupportedException {
+            return super.clone();
+        }
+
+        @Override
+        public String toString() {
+            return super.toString();
+        }
+
+        @Override
+        protected void finalize() throws Throwable {
+            super.finalize();
+        }
+    };
+}
