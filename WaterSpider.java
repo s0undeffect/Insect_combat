@@ -1,4 +1,4 @@
-public class WaterSpider extends Element{
+public class WaterSpider{
 
     Insect insect = new Insect("Water Spider", 100, 15, 100) {
 
