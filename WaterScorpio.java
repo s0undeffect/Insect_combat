@@ -1,7 +1,7 @@
 import com.sun.security.jgss.GSSUtil;
 
 public class WaterScorpio {
-    Insect insect = new Insect("Water Scorpio", 120, 10, 100) {
+    Insect insect = new Insect("Water Scorpio", 120, 10, 100,"Water") {
         @Override
         public int hashCode() {
             return super.hashCode();
@@ -30,5 +30,9 @@ public class WaterScorpio {
     public void Trunksting (int ap){
         ap = 20;
         System.out.println("Scorpio injects his trunk and absorbs hella lot of essential liquids! How you like that?");
+    }
+    public void tsunami(){
+        int ap = 25;
+        System.out.println("A giant wave rolls over the enemy and destroys everything in the way!");
     }
 }

@@ -1,6 +1,6 @@
-public class WaterSpider extends Element{
+public class WaterSpider{
 
-    Insect insect = new Insect("Water Spider", 100, 15, 100) {
+    Insect insect = new Insect("Water Spider", 100, 15, 100,"Water") {
 
 
 
@@ -34,6 +34,10 @@ public class WaterSpider extends Element{
         System.out.println("The Spider sssssssmack with a water bomb and makes the Target very uncomfortable, ha!");
     }
 
+    public void tsunami(){
+        int ap = 25;
+        System.out.println("A giant wave rolls over the enemy and destroys everything in the way!");
+    }
 
 }
 
