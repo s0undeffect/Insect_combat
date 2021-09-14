@@ -1,2 +1,7 @@
-public class WaterSpider extends Insect {
+public class WaterSpider {
+
+
+
+
+
 }
