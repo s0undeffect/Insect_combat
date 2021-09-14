@@ -10,6 +10,10 @@ public class Mosquito {
             System.out.println("The Mosquito injects viruses with its proboscis");
 
         }
+        public void tornado(){
+            int ap = 25;
+            System.out.println("Heavy winds sling all sorts of debris towards the enemy!");
+        }
 
         @Override
         public int hashCode() {

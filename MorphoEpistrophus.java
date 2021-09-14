@@ -8,6 +8,10 @@ public class MorphoEpistrophus {
             int ap = 20;
             System.out.println("Morpho Epistrophus fires his spikes at his enemy!");
         }
+        public void ignition(){
+            int ap = 25;
+            System.out.println("Fire strikes on the enemy!");
+        }
         @Override
         public int hashCode() {
             return super.hashCode();
