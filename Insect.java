@@ -1,23 +1,13 @@
-public class Insect {
-    public String name; //InsectName
-    public int hp; //HealthPoints
-    public int ap; //AttackPoints
-    public int ad; //AttackDamage
+public abstract class Insect {
+    private String name;
+    private int hp;
+    private int ad;
+    private int ap;
 
-    public void attributes (String name, int hp, int ap, int ad){
+    public Insect(String name, int hp, int ad, int ap) {
         this.name = name;
+        this.hp = hp;
         this.ad = ad;
         this.ap = ap;
-        this.hp = hp;
-
-    }
-
-    public void normalAttack(){
-
-
-    }
-
-    public void specialAttack(){
-
     }
 }
