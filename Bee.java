@@ -1,5 +1,7 @@
-public class Bee {
-    Insect insect = new Insect("Bee", 100, 15, 100) {
+public class Bee{
+
+
+    Insect insect = new Insect("Bee", 100, 15, 100,"Air") {
 
         public void beedance(){
             System.out.println("Bee intimidades his target!");
@@ -8,6 +10,11 @@ public class Bee {
         public void deathsting(){
             int ap = 50;
             System.out.println("Bee strikes back with a suicidal move. Very critical");
+        }
+
+        public void tornado(){
+            int ap= 25;
+            System.out.println("Heavy winds sling all sort of debris towards the enemy!");
         }
 
         @Override

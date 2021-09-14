@@ -1,5 +1,5 @@
 public class BulletAnt {
-    Insect insect = new Insect("Bullet Ant", 80, 15, 100) {
+    Insect insect = new Insect("Bullet Ant", 80, 15, 100,"Fire") {
 
         public void bite(){
             System.out.println("Nom.. Nom.. Nom");

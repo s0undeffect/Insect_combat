@@ -1,6 +1,6 @@
 public class Mosquito {
 
-    Insect insect = new Insect("Mosquito", 80, 10, 100) {
+    Insect insect = new Insect("Mosquito", 80, 10, 100,"Air") {
 
         public void transfusion(){
             System.out.println("Mosquito is thirsty and sucks the blood from the victim.");

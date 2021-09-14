@@ -1,5 +1,5 @@
 public class MorphoEpistrophus {
-    Insect insect = new Insect("Morpho Epistrophus",80,15,100) {
+    Insect insect = new Insect("Morpho Epistrophus",80,15,100,"Fire") {
 
         public void fireClaw(){
             System.out.println("Morpho Epistrophus bites his enemy.");

@@ -2,7 +2,7 @@ import javax.sound.midi.Soundbank;
 import java.sql.SQLOutput;
 
 public class DungBeetle{
-    Insect insect = new Insect("DungBeetle", 120, 10, 100) {
+    Insect insect = new Insect("DungBeetle", 120, 10, 100,"Earth") {
 
         public void headbutt(){
             System.out.println("Dung Beetle gives a Headbutt");

@@ -1,7 +1,7 @@
 import com.sun.security.jgss.GSSUtil;
 
 public class WaterScorpio {
-    Insect insect = new Insect("Water Scorpio", 120, 10, 100) {
+    Insect insect = new Insect("Water Scorpio", 120, 10, 100,"Water") {
         @Override
         public int hashCode() {
             return super.hashCode();

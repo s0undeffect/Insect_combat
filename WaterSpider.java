@@ -1,6 +1,6 @@
 public class WaterSpider{
 
-    Insect insect = new Insect("Water Spider", 100, 15, 100) {
+    Insect insect = new Insect("Water Spider", 100, 15, 100,"Water") {
 
 
 

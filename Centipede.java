@@ -1,5 +1,5 @@
 public class Centipede {
-    Insect insect = new Insect("Centipede",120,10,100) {
+    Insect insect = new Insect("Centipede",120,10,100,"Earth") {
 
         public void sweepingKick(){
             System.out.println("Centipede kicks his enemy with all his foot.");
